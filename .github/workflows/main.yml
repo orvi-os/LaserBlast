@@ -1,6 +1,9 @@
 name: "Exportovat do APK (Godot 4.3)"
 on: push
 
+# TENTO ŘÁDEK POVOLÍ ZÁPIS SOUBORŮ
+permissions: write-all
+
 jobs:
   export_android:
     runs-on: ubuntu-latest
